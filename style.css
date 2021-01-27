@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+
+#site-title {
+  font-family:'Press Start 2P', Libre Baskerville;
+}
+
+
+
+body {
+      font-family: 'Redressed', Redressed;
+      font-weight:300 !important;
+      background: rgba(0, 0, 125, 0.5);
+      color:#000;
+      margin:auto;
+      margin-top: 60px;
+}
+
+h3 {
+  color:#000;
+
+}
+
+body h3 {
+  color: #f00;
+
+}
+
+body > header > h3 {
+  background: #fff;
+}
+
+#top-stories  {
+    width:500px;
+    margin:auto;
+    display:inline-block;
+}
+#cute-girl {
+  width:500px;
+  margin:auto;
+  display: inline-block;
+
+}
+
+#main-header {
+    border:2px solid #000;
+    margin:20px 30px;
+    positions:fixed;
+}
+
+#site-title::before {
+    content: "  ";
+    display:inline-block;
+    width:2px;
+    height:40px;
+    background:#000;
+    position:absolute;
+    left:0px;
+}
+
+#site-title {
+  border-bottom: 2px solid #000;
+  position: fixed;
+  width:100%;
+  background:rgba(255, 255, 255, 0.9);
+  top:-22px;
+  padding: 5px;
+  disply:inline-block;
+}
+
+#stories {
+    max-width: 60%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+  width:230px;
+  display: inline-block;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 2px;
+  transition: box-shadow 500ms, background 1s;
+}
+
+article img {
+    width: 100%;
+    height:100px;
+    background:cover !important:;
+    display:inline-block;
+}
+
+.article-image {
+  height: 200px;
+  width:100%;
+  background-size:cover !important;
+  background-position: center !important;
+}
+
+.mona {
+  font-style: italic;
+}
+
+.not2b {
+  font-weight:900;
+}
+
+.mona.not2b {
+  color: #f00;
+}
+
+a:hover {
+  font-size: 18px;
+
+  text-decoration: underline blink;
+}
+
+article:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.7);
+}
+
+p {
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  text-indent: 30px;
+  text-align: center;
+}
+
+.my-input, .my-textarea {
+  display:block;
+  width:100%;
+  margin:5px;
+  padding:5px 5px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.my-input:focus {
+  background:#d5ffc2;
+  color:#0f8034;
+  outline: none;
+}
+
+article:active {
+  opacity: .4;
+}
+/* TODO: this creates opacity when you hold down the mouse button on the articles */
+
+.my-text {
+  height:50vh;
+  max-height: 100vw;
+  overflow:scroll;
+  border: 2px solid #000;
+  overflow-x: hidden;
+}
+
+.profile-menu {
+    list-style:none;
+    float:right;
+    margin-top: 10px;
+border: 1px solid #000;
+background: #fff;
+
+}
+
+.submenu {
+  list-style: none;
+  padding:0px;
+  border:1px solid #aaa;
+  background: #fff;
+  margin-top:30px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+    right: 10px;
+  display:none;
+}
+
+.submenu active {
+  display:block;
+}
+
+
+.submenu a{
+  text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.submenu a:hover{
+  background:#eee;
+}
+
+section {
+  max-width: 100%;
+  width:900px;
+  margin:auto;
+}
+
+.text {
+  display: block;
+  margin: auto;
+}
+
+#context {
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    display:none;
+}
+
+.context-menu {
+  list-style: none;
+  padding:0px;
+  margin:none;
+
+}
+
+.context-menu a {
+  display: block;
+width: 300px;
+padding: 10px;
+color: #333;
+text-decoration: none;
+text-shadow: none;
+font-weight: 600;
+}
+
+.context-menu a:hover {
+  background:#eee;
+}
+
+.context-menu a.hidden {
+  display:none;
+}
+
+.context-menu a.hidden.shown {
+  display:block;
+}

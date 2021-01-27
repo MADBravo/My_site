@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Glenn Finley</title>
+  <meta charset="utf-8">
+  <meta name="description" content="This is a webpage to showcase Glenn Finley's ability to learn html">
+  <meta name="keywords" content="html5, udemy, learn code, ">
+
+  <meta name="author" content="Glenn Finley">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="C:\Users\Forensic 1\Projects\Front-End-Projects\CSS\style.css" />
+
+</head>
+
+<body>
+  <div id="context">
+      <ul class="context-menu">
+          <li><a href="#" class="hidden newtab">Open in new tab</a></li>
+          <li><a href="#">Back</a></li>
+          <li><a href="#">Forward</a></li>
+          <li><a href="#">Reload</a></li>
+          <li><a href="#" class="hidden saveimg">Save Image as...</a></li>
+          <li><a href="#" class="hidden save">Save as...</a></li>
+          <li><a href="#">Inspect Element</a></li>
+      </ul>
+  </div>
+
+
+
+
+  <header>
+    <h1 id="site-title">Glenn Finley</h1>
+    <h3>Asian Studies Major and Self-Taught Front-End Web Designer</h3>
+    <ul class="profile-menu">
+        <li><a class="profile-menu-trigger" data-trigger="dropdown" href="#">Logged in as Bravo</a>
+
+            <ul class="profile-submenu submenu">
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">Settings</a></li>
+                  <li><a href="#">Logout</a></li>
+
+            </ul>
+        </li>
+    </ul>
+  </header>
+  <input placeholder="Search..." class="my-input" />
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I am a <a href="https://www.csulb.edu/">California State Long Beach</a> Graduate who is looking to expand
+        my skills in web development, design, and coding. My previous employment as a Data Science intern has
+        given me a passion to pursue coding as a full-time career.</p>
+      <br>
+    </section>
+    <section>
+      <article>
+        <img src="#" , width="50px" , height="50px" ;>
+      </article>
+    </section>
+    <section id="contact-form">
+      <h2>Place Order</h2>
+
+
+      <form method="POST" action="Contact-information.php">
+        <h4>Delivery</h4>
+        <input name="Delivery" type="radio" value="delivery" /> Delivery<br />
+        <input type="radio" name="Delivery" value="pickup /"> Pickup<br />
+
+        <h4>Address</h4>
+        <input name="Address1" placeholder="Address Line 1" class="lg-input" /><br />
+        <input name="Address1" placeholder="Address Line 2" class="lg-input" /><br />
+
+        <input type="text" name="City" placeholder="City" Class="sm-input" /> <br />
+        <input type="text" name="State" placeholder="State" class="sm-input" value="" /> <br />
+        <input type="text" name="zip" placeholder="Zip Code" class="sm-input" value="" /> <br />
+        <br />
+        <br />
+        <h4>Size</h4>
+        <select name="size">
+          <option value="12">12in -$13.99</option>
+          <option value="16">16in - $16.99</option>
+          <option value="18">18in - $19.99</option>
+          <option value="72">72in - $149.99</option>
+
+        </select>
+
+
+
+
+
+
+        <h4>Ingredients</h4>
+        <input name="ingredient" type="checkbox" value="Pepperoni" /> Pepperoni <br />
+        <input name="ingredient" type="checkbox" value="Salami" /> Salami <br />
+        <input name="ingredient" type="checkbox" value="Bacon" /> Bacon <br />
+        <input name="ingredient" type="checkbox" value="Onion" /> Onion<br />
+        <input name="ingredient" type="checkbox" value="Peppers" /> Peppers<br />
+
+        <br />
+        <br />
+
+        <button type="submit">Place Order</button>
+
+        <section>
+          <video width="240" height="200" controls>
+            <source src="#" type="video/mp4">
+            <source src="#" type="video/ogg">
+            Your browser does not support HTML5
+
+          </video>
+          <br />
+          <br />
+          <br />
+        </section>
+
+        <section>
+          <audio id="Touhou-music" width="200" controls autoplay loop>
+            <source src="C:\Users\Forensic 1\Downloads\Shibayan\[Touhou Vocal] [ShibayanRecords] Watashibune no Musume (spanish & english subtitles).mp3" type="audio/x-mp3">
+
+          </audio>
+        </section>
+
+
+
+
+
+
+      </form>
+    </section>
+
+    <section id="stories">
+      <header id="main-header">
+        <h1>Best News Ever</h1>
+      </header>
+
+      <section id="top-stories">
+        <article>
+          <div class="article-image" style="background:url(mona.jpg)"> </div>
+          <h3>Mona leaves for Mondstadt</h3>
+          <p>Hate to watch her go but love to watch her leave....<a class="mona" href="#">Read More...</a></p>
+
+        </article>
+      </section>
+      <section id="cute-girl">
+
+        <article>
+          <div class="article-image" style="background:url(dvc2B.png)"> </div>
+          <h3>2B or not 2B</h3>
+          <p>I didn't know she was a robot girl I swear....<a class="not2b" href="#">Read More...</a></p>
+
+        </article>
+
+
+      </section>
+
+
+
+
+    <form>
+      <textarea class="text" placeholder="type something"></textarea><br />
+
+      <button id=append>Append</button>
+      <button id=prepend>Prepend</button>
+      <button id="replace">Replace</button>
+    </form>
+    <section id="main">
+      <img src="dvc2B.png" />
+      <a href="https://google.com" target="_blank">Go to Google</a>
+  <!-- _blank will open the hyperlink in another tab -->
+        <div class="my-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique suscipit lectus eget pretium. Vivamus gravida velit efficitur purus scelerisque, in accumsan felis vulputate. Nam non mauris eget lorem aliquet porta. Nunc venenatis, neque id dictum euismod, diam lorem condimentum urna, ut blandit massa mauris sed risus. Nulla vitae condimentum lectus. Donec aliquet neque quis nisl vestibulum finibus. In accumsan tincidunt sapien vel eleifend. Donec sed molestie est. Praesent nunc mauris, euismod vel dui quis, placerat maximus arcu. Nunc felis lacus, tincidunt sit amet eros vitae, luctus auctor dolor. Nam a turpis in dui placerat volutpat sit amet sed nunc. Maecenas porttitor egestas est ac vulputate. Suspendisse sit amet arcu vel massa tempor ullamcorper. Maecenas semper posuere eros a tincidunt. In et nunc hendrerit, commodo odio vel, auctor augue.
+        </p>
+        <p class="my-selector">
+        Proin semper vestibulum quam vitae bibendum. Nullam eu accumsan magna. Fusce eget erat velit. Phasellus ligula enim, congue quis mauris quis, placerat euismod tortor. Aenean in ornare tortor. Phasellus sem mauris, bibendum eget massa ac, ullamcorper condimentum est. Fusce rutrum massa feugiat est venenatis congue. Pellentesque rhoncus orci vitae nisl dapibus, ac accumsan enim auctor. Nam tempor dolor a ante suscipit, ut viverra diam ultricies. Quisque viverra bibendum dui id mattis. Donec quis euismod lacus. Curabitur in orci justo. Pellentesque fermentum sem eu urna euismod, at laoreet ante tempor. Ut aliquam blandit mattis. Duis vitae rutrum lorem. Praesent efficitur tincidunt tempor. Aenean dui nisi, cursus nec viverra sit amet, sagittis vitae nunc. Nam eu rutrum neque. Pellentesque elementum augue at massa.</p>
+        </p>
+      </div>
+    </section>
+<!-- TODO: This is a practice comment -->
+
+
+</main>
+
+  <section>
+    <input class="my-input" placeholder="Your Name" />
+    <br />
+    <textarea class="my-textarea" placeholder="Your Message:">stuff and things</textarea>
+
+    <button id="go-button">Go</button>
+    <br />
+    <br />
+  <div id=text>Click that button!</div>
+    </section>
+
+
+<footer>&copy; 2021
+</footer>
+
+ <!--Jquery must come before script-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="JS/snake.js"></script>
+</body>
+
+</html>
